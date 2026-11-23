@@ -2,7 +2,7 @@
 
 Aplicación Web Progresiva (PWA) para reportar incidencias de la vía pública —baches, luminarias apagadas, fugas de agua, basura acumulada— con **foto, ubicación GPS y funcionamiento sin conexión**.
 
-**🔗 Aplicación publicada:** _pendiente de despliegue_
+**🔗 Aplicación publicada:** [https://reportaya-hector.netlify.app](https://reportaya-hector.netlify.app)
 
 ---
 
@@ -113,7 +113,7 @@ Después abre `http://localhost:8080` en Chrome o Edge.
 
 Publicada en **Netlify** con HTTPS y despliegue continuo: cada `push` a la rama `main` genera una nueva publicación. El sitio es estático, así que no requiere compilación; `netlify.toml` define la carpeta publicada y los encabezados del Service Worker y del manifest.
 
-URL: _pendiente de despliegue_
+URL: **[https://reportaya-hector.netlify.app](https://reportaya-hector.netlify.app)**
 
 ## Autor
 
