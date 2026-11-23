@@ -85,6 +85,7 @@ Al activarse una nueva versión (`VERSION` en `sw.js`), se eliminan las cachés 
 ├── offline.html      Página de respaldo sin conexión
 ├── manifest.json     Metadatos de instalación
 ├── sw.js             Service Worker
+├── netlify.toml      Configuración de despliegue
 ├── css/styles.css    Estilos (variables, responsive, modo oscuro)
 ├── js/
 │   ├── app.js        Router, vistas y registro del Service Worker
@@ -110,7 +111,9 @@ Después abre `http://localhost:8080` en Chrome o Edge.
 
 ## Despliegue
 
-El sitio es estático (no requiere compilación) y se publica en un hosting con **HTTPS**. URL: _pendiente de despliegue_.
+Publicada en **Netlify** con HTTPS y despliegue continuo: cada `push` a la rama `main` genera una nueva publicación. El sitio es estático, así que no requiere compilación; `netlify.toml` define la carpeta publicada y los encabezados del Service Worker y del manifest.
+
+URL: _pendiente de despliegue_
 
 ## Autor
 
